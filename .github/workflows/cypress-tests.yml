@@ -17,4 +17,10 @@ jobs:
         with:
           browser: chrome
           headless: true
-          record: false # Altere para "true" se tiver uma key do Cypress Cloud
+          record: false
+    
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-report
+          path: cypress/reports
