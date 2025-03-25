@@ -18,3 +18,5 @@ npx cypress open
 # Run the automation by command line
 npx cypress run
 ```
+
+[![Cypress Tests](https://github.com/ariadnebernardo/primeiros-passsos-cypress/actions/workflows/cypress-tests.yml/badge.svg)](https://github.com/ariadnebernardo/primeiros-passsos-cypress/actions)
