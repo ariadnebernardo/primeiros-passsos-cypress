@@ -1,5 +1,4 @@
 name: Cypress Tests
-
 on: [push]
 
 jobs:
@@ -18,7 +17,7 @@ jobs:
           browser: chrome
           headless: true
           record: false
-    
+
       - name: Upload Report
         uses: actions/upload-artifact@v3
         with:
